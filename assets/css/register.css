@@ -1,0 +1,97 @@
+/* register.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #FFC0CB; /* Change background color */
+}
+
+.alert-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    text-align: center;
+    z-index: 999; /* Ensure it's above other elements */
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px; /* Adjusted padding for a reduced container height */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Change container width */
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    position: fixed;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFC0CB;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color:  #ff006a;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 50px;
+}
+
+a:hover {
+    color:  #ff006a;
+}
+
+.fa-arrow-left {
+    margin-right: 5px;
+}
+
+.isi{
+    margin-top: 20px;
+}
+
+hr{
+    border: 2px solid black;
+    margin-top: 50px;
+}

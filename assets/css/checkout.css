@@ -1,0 +1,153 @@
+checkout.css
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Sesuaikan padding untuk header */
+    background-color: #e84393; /* Warna latar header */
+    color: #fff;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px; /* Sesuaikan ukuran font untuk judul */
+    margin-left: 20px; /* Sesuaikan margin kiri */
+}
+
+.header i {
+    margin-right: 10px;
+}
+
+/* Cart Section */
+.cart-section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 16px; /* Sesuaikan ukuran font untuk isi tabel */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Tambahkan border ke setiap sel */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styling button */
+button {
+    padding: 10px 20px;
+    background-color: #ff006a;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e84393;
+}
+
+/* Success Message */
+.success-message {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Order Details */
+.order-details {
+    margin-top: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.alamat {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+.invoice {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.invoice p {
+    margin-bottom: 10px;
+}
+
+.invoice hr {
+    border: 1px solid #ddd; /* Tambahkan garis horizontal */
+    margin: 10px 0;
+}
+
+.invoice button {
+    padding: 10px;
+    background-color: #ff006a;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.invoice button:hover {
+    background-color: #e84393;
+}
+
+.invoice table {
+    width: 100%;
+    border-collapse: collapse; /* Menggabungkan garis tepi sel */
+}
+
+.invoice table td {
+    border-right: 1px solid transparent; /* Menghilangkan garis vertikal tengah */
+    padding: 10px; /* Sesuaikan padding sel sesuai kebutuhan */
+}
+
+.btncetak {
+    text-align: center;
+    margin-top: 20px; /* Sesuaikan nilai margin-top sesuai kebutuhan */
+}
+
+.btncetak {
+    align-items: center;
+    margin-top: 20px;
+}
